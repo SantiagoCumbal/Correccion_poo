@@ -31,6 +31,10 @@ public class Main {
         miHotel4.modificarDatos2();
         miHotel5.modificarDatos2();
 
+        //Mostrar datos Modificados de null
+        miHotel4.imprimirDatos();
+        miHotel5.imprimirDatos();
+
 
 
 
