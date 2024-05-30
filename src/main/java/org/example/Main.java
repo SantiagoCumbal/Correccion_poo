@@ -21,11 +21,14 @@ public class Main {
 
         //Modificar datos
         miHotel1.modificarDatos("Nuevo Paraiso", "567289AK", "Quito-La Floresta", 10, 200);
-        miHotel1.imprimirDatos();
         miHotel1.modificarDatos("La secta", "0976TRF4", "Quito-La Carolina", 3, 57);
-        miHotel2.imprimirDatos();
         miHotel1.modificarDatos("Nueva Bancada", "76FE54KJ", "Quito-Guamani", 4, 56);
+
+        //Mostrar modificacion
+        miHotel1.imprimirDatos();
+        miHotel2.imprimirDatos();
         miHotel3.imprimirDatos();
+
 
         //Modificar datos a null
         miHotel4.modificarDatos2();
